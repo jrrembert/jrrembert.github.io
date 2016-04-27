@@ -1,0 +1,89 @@
+.project-detail-wrapper {
+  display: flex;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  // padding: 0 5%;
+}
+
+
+#bathy-project-detail {
+  text-align: center;
+  padding: 0 15%;
+  font-family: Courier New, Gotham Light, Helvetica, sans-serif;
+
+  img {
+    width: 100%;
+    max-width: 720px;
+  }
+
+  div {
+    text-align: left;
+    margin: 25px auto;
+  }
+}
+
+.fade-main {
+  opacity: 0.1;
+
+}
+
+.open {
+  z-index: 0;
+}
+
+.close {
+  z-index: -1;
+}
+
+// .close {
+//   display: hidden;
+// }
+
+
+// @media (max-width: 721px) {
+//   #bathy-project-detail img {
+//     padding: 0 5%;
+//   }
+// }
+
+// @media screen and (min-width: 1359px) {
+//   .project-detail-wrapper {
+//     max-width: 1360px;
+//   }
+// }
+
+@media (max-width: 592px) {
+  @font-face {
+      font-family: 'Pacifico';
+      src: url('../../fonts/pacifico-webfont.eot');
+      src: url('../../fonts/pacifico-webfont.eot?#iefix') format('embedded-opentype'),
+           url('../../fonts/pacifico-webfont.woff2') format('woff2'),
+           url('../../fonts/pacifico-webfont.woff') format('woff'),
+           url('../../fonts/pacifico-webfont.ttf') format('truetype'),
+<<<<<<< HEAD
+           url('../../fonts/pacifico-webfont.svg#Pacifico') format('svg');
+=======
+           url('../../fonts/pacifico-webfont.svg#pacifico') format('svg');
+>>>>>>> b087e98... Add Pacifico to fonts (#18)
+      font-weight: normal;
+      font-style: normal;
+  }
+
+  #bathy-project-detail {
+    padding: 0;
+
+    img {
+      padding: 0;
+    }
+    div {
+      padding: 0 10px;
+    }
+  }
+
+  #elected-officials-proj {
+
+  }
+
+}

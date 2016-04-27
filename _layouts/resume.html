@@ -1,0 +1,57 @@
+{% include header.html %}
+
+<main id="resume-wrapper">
+    <section id="resume" class="animation">
+        <section id="resume-contact">
+            <figure id="resume-logo">
+                <a href="/">
+                    <img src="../img/ryan-kicks-moose.svg"/>
+                </a>
+            </figure>
+            <div>
+                <h1>J. Ryan Rembert</h1>
+                <h5>(the "J." is silent)</h5>
+            </div>
+            <span>
+                <a class="fa-stack fa-2x email animation" href="mailto:j.ryan.rembert@gmail.com">
+                    <i class="fa fa-envelope-o fa-stack-1x fa-fw icon-color"></i>
+                </a>
+            </span>
+            <span>
+                <a class="fa-stack fa-2x linkedin animation" href="https://www.linkedin.com/in/jrrembert" target="_blank">
+                    <i class="fa fa-linkedin fa-stack-1x fa-fw icon-color"></i>
+                </a>
+            </span>
+            <span>
+                <a class="fa-stack fa-2x github animation" href="https://www.github.com/jrrembert" target="_blank">
+                    <i class="fa fa-github-alt fa-stack-1x fa-fw icon-color"></i>
+                </a>
+            </span>
+            <span>
+                <a class="fa-stack fa-2x twitter animation" href="https://twitter.com/jryanrembert" target="_blank">
+                    <i class="fa fa-twitter fa-stack-1x fa-fw icon-color"></i>
+                </a>
+            </span>
+        <section>
+            <a href="../docs/rembert_resume.pdf" target="_blank">
+                <img src="../img/pdf.svg"/>
+                <span>Download PDF</span>
+            </a>
+        </section>
+        </section>
+        <section id="resume-background">
+            {% include_relative background.html %}
+        </section>
+        <section id="resume-skills">
+            {% include_relative skills.html %}
+        </section>
+        <section id="resume-experience">
+            {% include_relative experience.html %}
+        </section>
+        <section id="resume-education">
+            {% include_relative education.html %}
+        </section>
+    </section>
+</main>
+
+{% include footer.html %}

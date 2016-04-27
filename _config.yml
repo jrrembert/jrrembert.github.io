@@ -1,0 +1,28 @@
+name: "J. Ryan Rembert"
+description: "This is the place that you are now at."
+
+url: "http://localhost:4000"
+
+# Output
+
+# paginate: 2
+# paginate_path: "posts/:num"
+# permalink: /posts/:title
+permalink: pretty
+# timezone: null
+
+# Conversion
+
+markdown: kramdown
+highlights: true
+highlighter: rouge
+
+# Site navigation
+
+navigation:
+  - text: Projects
+    url: /projects
+  - text: Resume
+    url: /resume
+  - text: Docs
+    url: /docs
