@@ -148,6 +148,62 @@ body {
   transform: scale(12);
 }
 
+#projects-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#elected-officials-proj {
+  background-image: url('../../img/elected-officials.svg');
+}
+
+#museums-proj {
+  background-image: url('../../img/museums.jpg');
+
+}
+
+#bathy-proj {
+  background-image: url('../../img/mapping.png');
+}
+
+#district-labs-proj {
+  background-image: url('../../img/district-labs.png');
+}
+
+#rsn-proj {
+  background-image: url('../../img/rsn.png');
+}
+
+#boyd-law-proj {
+  background-image: url('../../img/boyd.jpg');
+  border: 2px solid #000086;
+}
+
+.projects {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 5%;
+  justify-content: center;
+}
+
+.projects a {
+  height: 150px;
+  width: 45%;
+  max-width: 300px;
+  min-width: 288px;
+  margin: 15px 7.5px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 1359px) {
+  .projects {
+    max-width: 1360px;
+  }
+}
+
 @media screen and (max-width: 678px) {
   #site-header {
     margin-bottom: 50px;

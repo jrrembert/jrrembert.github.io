@@ -6,9 +6,7 @@ var gulp = require('gulp'),
 	browserSync = require('browser-sync'),
 	del = require('del'),
 	sass = require('gulp-sass'),
-	sourcemaps = require('gulp-sourcemaps'),
-	imagemin = require('gulp-imagemin'),
-	pngquant = require('imagemin-pngquant');
+	sourcemaps = require('gulp-sourcemaps');
 
 // Create Gulp tasks
 
@@ -26,19 +24,6 @@ gulp.task('styles', function() {
 	);
 });
 
-gulp.task('minify-images', function() {
-	return gulp.src(['img/**/*'])
-		.pipe(imagemin({
-			progressive: true,
-			use: [pngquant()]
-		}))
-		.pipe(gulp.dest('dist/img'))
-		.pipe(notify({
-			message: 'Minify Images task complete!',
-			onLast: true
-		}));
-});
-
 gulp.task('clean', function(callback) {
 	del(['dist/**/*.css'], callback)
 });
@@ -48,7 +33,7 @@ gulp.task('clean', function(callback) {
 // before executing any other tasks.
 
 gulp.task('default', ['clean'], function() {
-	return gulp.start(['styles', 'minify-images']);
+	return gulp.start(['styles']);
 });
 
 // Watch files for changes
@@ -58,5 +43,5 @@ gulp.task('watch', function() {
 		server: './'
 	});
 
-	gulp.watch(['scss/**/*.scss'], ['styles', 'minify-images', 'clean'], browserSync.reload);
+	gulp.watch(['scss/**/*.scss'], ['styles', 'clean'], browserSync.reload);
 });
