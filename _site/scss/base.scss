@@ -207,6 +207,11 @@ body {
 @media screen and (max-width: 678px) {
   #site-header {
     margin-bottom: 50px;
+
+    nav span {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
   }
 
   .projects {
@@ -216,7 +221,7 @@ body {
 
 @media (max-width: 350px) {
   #site-header nav span {
-    margin: 10px 20px;
+    margin: 10px 10px;
   }
 }
 

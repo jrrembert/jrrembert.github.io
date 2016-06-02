@@ -155,12 +155,15 @@ body {
 @media screen and (max-width: 678px) {
   #site-header {
     margin-bottom: 50px; }
+    #site-header nav span {
+      margin-left: 10px;
+      margin-right: 10px; }
   .projects {
     position: relative; } }
 
 @media (max-width: 350px) {
   #site-header nav span {
-    margin: 10px 20px; } }
+    margin: 10px 10px; } }
 
 @-webkit-keyframes sq2-in {
   from {
@@ -1152,11 +1155,7 @@ div.projects a div {
   @font-face {
     font-family: 'Pacifico';
     src: url("../../fonts/pacifico-webfont.eot");
-<<<<<<< HEAD
-    src: url("../../fonts/pacifico-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/pacifico-webfont.woff2") format("woff2"), url("../../fonts/pacifico-webfont.woff") format("woff"), url("../../fonts/pacifico-webfont.ttf") format("truetype"), url("../../fonts/pacifico-webfont.svg#Pacifico") format("svg");
-=======
     src: url("../../fonts/pacifico-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/pacifico-webfont.woff2") format("woff2"), url("../../fonts/pacifico-webfont.woff") format("woff"), url("../../fonts/pacifico-webfont.ttf") format("truetype"), url("../../fonts/pacifico-webfont.svg#pacifico") format("svg");
->>>>>>> b087e98... Add Pacifico to fonts (#18)
     font-weight: normal;
     font-style: normal; }
   #bathy-project-detail {
