@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/jrrembert
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jrrembert.github.io
+  * I am jrrembert (https://keybase.io/jrrembert) on keybase.
+  * I have a public key ASAU6N2KuvzT71RPJlPgQ7bzaoDD6mOUw08_dHgZI38TPQo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101a73129b7b7c7028039ecbe477d9988514093ce8293daa508e9172753f32f91a10a",
+            "host": "keybase.io",
+            "kid": "012014e8dd8abafcd3ef544f2653e043b6f36a80c3ea6394c34f3f747819237f133d0a",
+            "uid": "ece75fd27d4718bf1753c5b7ae3ba919",
+            "username": "jrrembert"
+        },
+        "service": {
+            "hostname": "jrrembert.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.16"
+    },
+    "ctime": 1467089058,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1467089030,
+        "hash": "5113cc52ac42ee40f24384840389b2d8f67fd49a7287837b82c6d63288e3c61761130b064a87a1ac276d21975cfab71da59805d9c8ddce0ed9e2a3014dd5d2f2",
+        "seqno": 501707
+    },
+    "prev": "4524f39f2567422942617c6cb0cc813dcbb2f64f85c90fbaa906b21250f4815c",
+    "seqno": 10,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgFOjdirr80+9UTyZT4EO282qAw+pjlMNPP3R4GSN/Ez0Kp3BheWxvYWTFAv17ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxYTczMTI5YjdiN2M3MDI4MDM5ZWNiZTQ3N2Q5OTg4NTE0MDkzY2U4MjkzZGFhNTA4ZTkxNzI3NTNmMzJmOTFhMTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMTRlOGRkOGFiYWZjZDNlZjU0NGYyNjUzZTA0M2I2ZjM2YTgwYzNlYTYzOTRjMzRmM2Y3NDc4MTkyMzdmMTMzZDBhIiwidWlkIjoiZWNlNzVmZDI3ZDQ3MThiZjE3NTNjNWI3YWUzYmE5MTkiLCJ1c2VybmFtZSI6ImpycmVtYmVydCJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoianJyZW1iZXJ0LmdpdGh1Yi5pbyIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE2In0sImN0aW1lIjoxNDY3MDg5MDU4LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0NjcwODkwMzAsImhhc2giOiI1MTEzY2M1MmFjNDJlZTQwZjI0Mzg0ODQwMzg5YjJkOGY2N2ZkNDlhNzI4NzgzN2I4MmM2ZDYzMjg4ZTNjNjE3NjExMzBiMDY0YTg3YTFhYzI3NmQyMTk3NWNmYWI3MWRhNTk4MDVkOWM4ZGRjZTBlZDllMmEzMDE0ZGQ1ZDJmMiIsInNlcW5vIjo1MDE3MDd9LCJwcmV2IjoiNDUyNGYzOWYyNTY3NDIyOTQyNjE3YzZjYjBjYzgxM2RjYmIyZjY0Zjg1YzkwZmJhYTkwNmIyMTI1MGY0ODE1YyIsInNlcW5vIjoxMCwidGFnIjoic2lnbmF0dXJlIn2jc2lnxED6KP4WsxzPXJQ6YcPyLNBNvAgz1YFksX/nS9ipkuL7MP3qbU5GDCrHrprePEvlpcLiTqkQcL3Bb1AE3WevyIYIqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgOWx+nIt7t3Z4Sm29uqmd4OUqubrl+pWaOutUUbXANmWjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jrrembert
+
+==================================================================
